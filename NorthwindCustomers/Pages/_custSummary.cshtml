@@ -1,0 +1,23 @@
+﻿@using NorthwindCustomers.Core
+@model Customer
+<tr>
+    <th scope="row"> @Model.CustomerId </th>
+    <td scope="row"> @Model.CompanyName </td>
+    <td scope="row"> @Model.ContactName </td>
+    <td scope="row"> @Model.ContactTitle </td>
+    <td scope="row"> 
+        <a class="btn btn-lg" asp-page="./Detail" asp-route-customerId="@Model.CustomerId">
+            <i class="bi bi-search"></i>
+        </a>
+    </td>
+    <td scope="row"> 
+        <a class="btn btn-lg" asp-page="./Edit" asp-route-customerId="@Model.CustomerId">
+            <i class="bi bi-pencil-fill"></i>
+        </a>
+    </td>
+    <td scope="row"> 
+        <a class="btn btn-lg" asp-page="./Delete" asp-route-customerId="@Model.CustomerId">
+            <i class="bi bi-trash-fill"></i>
+        </a>
+    </td>
+</tr>

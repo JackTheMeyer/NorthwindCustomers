@@ -1,0 +1,21 @@
+﻿@page "{customerId}"
+@model NorthwindCustomers.Pages.DetailModel
+@{
+
+}
+
+<h2>@Model.Customer.ContactName</h2>
+@if (@Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
+}
+
+<div>
+    Client Id: @Model.Customer.CustomerId
+</div>
+<div>
+    Contact Name: @Model.Customer.ContactName
+</div>
+<div>
+    Contact Title: @Model.Customer.ContactTitle
+</div>

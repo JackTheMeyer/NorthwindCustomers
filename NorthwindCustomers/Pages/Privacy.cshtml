@@ -1,0 +1,27 @@
+﻿@page
+@using NorthwindCustomers.Core
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+<h2>Testing Browser Link - v2</h2>
+<p>Use this page to detail your site's privacy policy.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Company</th>
+            <th scope="col">Contact</th>
+            <th scope="col">Contact Title</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+    <!--foreach (var cust in @Model.Customers)
+    {
+        <partial name="_summary" model=Model />
+    }-->
+</table>

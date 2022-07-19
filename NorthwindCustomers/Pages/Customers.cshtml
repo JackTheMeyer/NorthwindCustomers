@@ -1,0 +1,44 @@
+﻿@page
+@using NorthwindCustomers.Core
+@model NorthwindCustomers.Pages.CustomersModel
+@{
+    ViewData["Title"] = "Clients";
+}
+<h1>@ViewData["Title"]</h1>
+<h2>Clients</h2>
+<p>From the list below; View, Add, Edit, or Remove clients</p>
+<p> Type in the box below to search for clients </p>
+
+<form method="get">
+	<div class="form-group">
+		<div class="input-group">
+			<input type="search" class="form-control" asp-for="SearchTerm"/>
+			<span class="input-group-btn">
+				<button class="btn btn-default">
+					<i class="bi bi-search"></i>
+				</button>
+			</span>
+		</div>
+	</div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Company</th>
+            <th scope="col">Contact</th>
+            <th scope="col">Contact Title</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+    @foreach (var cust in @Model.Customers)
+    {
+        <partial name="_custSummary" model="cust" />
+    }
+</table>

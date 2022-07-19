@@ -1,0 +1,12 @@
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\bin\Debug\net6.0\NorthwindCustomers.Core.deps.json
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\bin\Debug\net6.0\NorthwindCustomers.Core.dll
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\bin\Debug\net6.0\NorthwindCustomers.Core.pdb
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\NorthwindCustomers.Core.csproj.AssemblyReference.cache
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\NorthwindCustomers.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\NorthwindCustomers.Core.AssemblyInfoInputs.cache
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\NorthwindCustomers.Core.AssemblyInfo.cs
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\NorthwindCustomers.Core.csproj.CoreCompileInputs.cache
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\NorthwindCustomers.Core.dll
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\refint\NorthwindCustomers.Core.dll
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\NorthwindCustomers.Core.pdb
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Core\obj\Debug\net6.0\ref\NorthwindCustomers.Core.dll

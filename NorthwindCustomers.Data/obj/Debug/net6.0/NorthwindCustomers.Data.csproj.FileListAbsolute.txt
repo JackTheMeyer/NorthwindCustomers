@@ -1,0 +1,17 @@
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\bin\Debug\net6.0\NorthwindCustomers.Data.deps.json
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\bin\Debug\net6.0\NorthwindCustomers.Data.runtimeconfig.json
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\bin\Debug\net6.0\NorthwindCustomers.Data.dll
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\bin\Debug\net6.0\NorthwindCustomers.Data.pdb
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\bin\Debug\net6.0\NorthwindCustomers.Core.dll
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\bin\Debug\net6.0\NorthwindCustomers.Core.pdb
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.csproj.AssemblyReference.cache
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.AssemblyInfoInputs.cache
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.AssemblyInfo.cs
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.csproj.CopyComplete
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.dll
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\refint\NorthwindCustomers.Data.dll
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.pdb
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\NorthwindCustomers.Data.genruntimeconfig.cache
+C:\Users\Jack\OneDrive\Desktop\DotNet\NorthwindCustomers\NorthwindCustomers\NorthwindCustomers.Data\obj\Debug\net6.0\ref\NorthwindCustomers.Data.dll

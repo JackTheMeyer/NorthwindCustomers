@@ -1,0 +1,37 @@
+﻿@page
+@model NorthwindCustomers.Pages.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2> Editing @Model.Customer.ContactName</h2>
+
+<form method="post">
+
+	<input type="hidden" asp-for="Customer.CustomerId" />
+	<div class="form-group">
+		<label asp-for="Customer.CompanyName"></label>
+		<input asp-for="Customer.CompanyName" class="form-control" />
+		<span class="text-danger" asp-validation-for="Customer.CompanyName"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Customer.ContactName"></label>
+		<input asp-for="Customer.ContactName" class="form-control" />
+		<span class="text-danger" asp-validation-for="Customer.ContactName"></span>
+
+	</div>
+	<div class="form-group">
+		<label asp-for="Customer.ContactTitle"></label>
+		<input asp-for="Customer.ContactTitle" class="form-control" />
+		<span class="text-danger" asp-validation-for="Customer.ContactTitle"></span>
+
+	</div>
+	<button type="submit" class="btn btn-primary">Save</button>
+
+</form>
+
+<a asp-page="./Customers" class="btn btn-primary">All Restaurants</a>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

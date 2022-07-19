@@ -1,0 +1,46 @@
+﻿@page
+@model NorthwindCustomers.Pages.ClientCustomersModel
+@{
+    ViewData["Title"] = "ClientCustomers";
+}
+
+<h2>Client Restaurants</h2>
+
+<table class="table" id="restaurant">
+</table>
+@section Scripts {
+
+	<!--<environment include="Development">
+		<script src="C:\Users\Jack\OneDrive\Desktop\DotNet\OdeToFood\OdeToFood\node_modules\datatables.net\js\jquery.dataTables.js"></script>
+		<script src="C:\Users\Jack\OneDrive\Desktop\DotNet\OdeToFood\OdeToFood\node_modules\datatables.net-bs4\js\dataTables.bootstrap4.js"></script>
+		<link href="C:\Users\Jack\OneDrive\Desktop\DotNet\OdeToFood\OdeToFood\node_modules\datatables.net-bs4\css\dataTables.bootstrap4.css" rel="stylesheet" />
+	</environment>
+	<environment exclude="Development">
+	<script src="~/node_modules/datatables.net/js/jquery.dataTables.js"></script>
+	<script src="~/node_modules/datatables.net-bs/js/dataTables.bootstrap.js"></script>
+	<link href="~/node_modules/datatables.net-bs/css/dataTables.bootstrap.css" rel="stylesheet" />
+	</environment>-->
+
+	<!--script src="C:\Users\Jack\OneDrive\Desktop\DotNet\OdeToFood\OdeToFood\node_modules\datatables.net\js\jquery.dataTables.js"></script>
+	<script src="C:\Users\Jack\OneDrive\Desktop\DotNet\OdeToFood\OdeToFood\node_modules\datatables.net-bs4\js\dataTables.bootstrap4.js"></script>
+	<link href="C:\Users\Jack\OneDrive\Desktop\DotNet\OdeToFood\OdeToFood\node_modules\datatables.net-bs4\css\dataTables.bootstrap4.css" rel="stylesheet" />-->
+	<script>
+		$(function () {
+			var cuisines = ["Unknown", "Mexican", "Italian", "Indian"]
+			$.ajax("/api/customers/",
+				{ method: "get" })
+				.then(function (response) {
+					$("#customers").dataTable({
+						data: response,
+						columns: [
+							{ "data": "CompanyName" },
+							{ "data": "ContactName" },
+							{ "data": "ContactTitle"},
+							}
+						]
+					});
+				});
+		});
+	</script>
+}
+
